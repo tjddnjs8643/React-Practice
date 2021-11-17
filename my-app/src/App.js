@@ -1,13 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
-import ClassComponent from './Component/2-5 State/ClassComponent';
+
 import FunctionalComponent from './Component/2-5 State/FunctionalComponent';
+//import ClassComponent from './Component/2-6. LifeCycle/ClassComponent';
+ import Event from './Component/2-7. Event/Event';
 
 function App() {
   return (
     <div className="App">
-      <ClassComponent/>
-      <FunctionalComponent/>
+      <Event/>
+      
+      {/* <ClassComponent/> */}
+      {/* <FunctionalComponent/> */}
+      
     </div>
   );
 }
