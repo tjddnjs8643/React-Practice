@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <UncontrolledComponent/>
       <ControlledComponent/>
+      {/* Recap */}
       {/* <Condition/> */}
       {/* <List/> */}
       {/* <Event/> */}
