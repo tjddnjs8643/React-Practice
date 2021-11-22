@@ -1,4 +1,4 @@
-import React, { useReducer, useRef } from 'react'
+import React, { useReducer} from 'react'
 
 export default function Reducer() {
     const initialState={count : 0};

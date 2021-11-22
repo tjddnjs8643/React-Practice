@@ -1,9 +1,12 @@
 
 import './App.css';
-import Reducer from './Component/3-3.Hooks/Reducer';
+import ThankyouDialog from './Component/3-6. Composition2/ThankyouDialog';
+// import Reducer from './Component/3-3.Hooks/Reducer';
 // import ControlledComponent from './Component/2-10.Form/ControlledComponent';
 // import UncontrolledComponent from './Component/2-10.Form/UncontrolledComponent';
-import State from './Component/3-3.Hooks/State';
+// import State from './Component/3-3.Hooks/State';
+// import WelcomeDialog from './Component/3-5. Composition/WelcomeDialog';
+// import Dialog2 from './Component/3-6. Composition2/Dialog';
 
 // import FunctionalComponent from './Component/2-5 State/FunctionalComponent';
 // import Condition from './Component/2-8. ConditionalRendring/Condition';
@@ -14,8 +17,11 @@ import State from './Component/3-3.Hooks/State';
 function App() {
   return (
     <div className="App">
-      <State/>
-      <Reducer/>
+      <ThankyouDialog/>
+      {/* <State/> */}
+      {/* <Reducer/> */}
+      {/* <Dialog2/> */}
+      {/* <WelcomeDialog/> */}
       {/* <UncontrolledComponent/> */}
       {/* <ControlledComponent/> */}
       {/* Recap */}

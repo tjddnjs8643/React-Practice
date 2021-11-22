@@ -33,7 +33,7 @@ export default function Condition() {
     
     const [isLoggedIn,setIsLoggedIn] = useState(false);
     
-    let button;
+    
     // eslint-disable-next-line no-lone-blocks
     const handleLoginClick = () =>{
         console.log('login');
@@ -49,7 +49,8 @@ export default function Condition() {
     return (
         <div>
             <Greeting isLoggedIn ={isLoggedIn} />
-            {isLoggedIn ? <button onClick={handleLogoutClick}>Logout</button>
+            {isLoggedIn ?
+             <button onClick={handleLogoutClick}>Logout</button>
             : <button  onClick ={handleLoginClick}>Login</button>}
     
             
