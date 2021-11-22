@@ -15,11 +15,30 @@ export default function Dialog2(props) {
             padding: 24,
             backgroundColor: "white"
         }} >
+            {typeof props.title === "string"
+            ?
+            (
             <h1>{props.title}</h1>
-            <h5>{props.discription}</h5>
-            <button style ={{backgroundColor: "red",
+            ) : (
+                props.title
+            )
+            }
+            {typeof props.discription === "string" ?
+            (<h5>{props.discription}</h5>
+            ) : (
+                props.discription
+            )}
+            {typeof props.button === "string" ?(
+                <button style ={{backgroundColor: "red",
             color:"white"}}
             onClick = {()=> setIsOpen(false)}>{props.button}</button>
+            ) : (
+                <div onClick= {()=> setIsOpen(false)}>
+                {props.button}
+                </div>
+            )
+
+}
             </div>}
             {isOpen && <div
             style={{
