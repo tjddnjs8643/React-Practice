@@ -1,6 +1,9 @@
 
 import './App.css';
-import ThankyouDialog from './Component/3-6. Composition2/ThankyouDialog';
+import Memo from './Component/3-8.Memoization/Memo';
+// import Button from './Component/3-7.HOC/Button';
+// import Input from './Component/3-7.HOC/Input';
+// import ThankyouDialog from './Component/3-6. Composition2/ThankyouDialog';
 // import Reducer from './Component/3-3.Hooks/Reducer';
 // import ControlledComponent from './Component/2-10.Form/ControlledComponent';
 // import UncontrolledComponent from './Component/2-10.Form/UncontrolledComponent';
@@ -17,7 +20,10 @@ import ThankyouDialog from './Component/3-6. Composition2/ThankyouDialog';
 function App() {
   return (
     <div className="App">
-      <ThankyouDialog/>
+      <Memo/>
+      {/* <Input/> <br/> */}
+      {/* <Button/> */}
+      {/* <ThankyouDialog/> */}
       {/* <State/> */}
       {/* <Reducer/> */}
       {/* <Dialog2/> */}
