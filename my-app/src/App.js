@@ -1,7 +1,7 @@
 
 import './App.css';
 // import Memo from './Component/3-8.Memoization/Memo';
-import Example from './Component/3-10.Context/Example'
+import Example from './Component/3-11.Portal/Example';
 // import Button from './Component/3-7.HOC/Button';
 // import Input from './Component/3-7.HOC/Input';
 // import ThankyouDialog from './Component/3-6. Composition2/ThankyouDialog';
@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <Example/>
+      {/* <Example/> */}
       {/* <Memo/> */}
       {/* <Input/> <br/> */}
       {/* <Button/> */}
